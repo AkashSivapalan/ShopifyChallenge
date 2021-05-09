@@ -1,8 +1,11 @@
 # ShopifyChallenge
-This is my solution for the Shopify Developer Intern Challenge. To run this file, you can execute the jar file as a java file. Make sure port 8081 is free on your device running 
-it. When the jar file is ran, you can enter these urls into your browser to execute the programs functions:
+This is my solution for the Shopify Developer Intern Challenge. The code has been deployed on aws. Click on the following links to use the functions of the program.
+http://shopifychallenge3-env.eba-juxfgqsf.us-east-2.elasticbeanstalk.com/image/addImage
+http://shopifychallenge3-env.eba-juxfgqsf.us-east-2.elasticbeanstalk.com/image/viewRepository
+http://shopifychallenge3-env.eba-juxfgqsf.us-east-2.elasticbeanstalk.com/image/deleteImage
+http://shopifychallenge3-env.eba-juxfgqsf.us-east-2.elasticbeanstalk.com/image/findImage
 
-http://localhost:8081/ShopifyChallenge/image/addImage
-http://localhost:8081/ShopifyChallenge/image/viewRepository
-http://localhost:8081/ShopifyChallenge/image/findImage
-http://localhost:8081/ShopifyChallenge/image/deleteImage
+
+For delete image, you must enter and the charactertics of an image to delete it from the repository. For find image, you enter a keyword such as db or service and the program will output a list of pre-stored images in the program with that word in its name. This list does not include images added by users.
+
+
